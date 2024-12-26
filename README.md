@@ -92,7 +92,7 @@ crontab -e
 然后添加一行，设置每天凌晨 3 点运行脚本：
 
 ```
-0 3 * * * python /path/to/dns_update.py
+0 3 * * * python /path/to/ddns.py
 ```
 
 ### 4. 如何检查 DNS 更新是否成功？
